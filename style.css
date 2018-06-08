@@ -1,0 +1,465 @@
+body{    
+	margin: 0;
+}
+.container{
+	margin: 0 auto;
+	width: 85%;
+}
+.sec-one{
+background-image: url("slide_03.jpg");
+background-repeat: no-repeat;
+height: 100%;
+ width: 100%;
+
+
+}
+.logo{
+	display: inline-block;
+}
+.menu ul{
+	float: right;
+	margin: 0; /* margin is orange*/
+}
+ .menu{
+  padding-top: 20px;
+ 
+  
+ }
+.menu ul li{
+	display: inline-block;
+	margin-left: 10px;
+	color: white;
+	font-family: arial;
+	font-size: 10px;
+}
+
+.i-can-center{
+	text-align: center;
+}
+.center-me-please  {             /*important center  text in header */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-family: arial;
+	color: white;
+	transform:translatex(-50%) translatey(-50%);
+}
+.center-me-please span{
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 30px;
+}
+.center-me-please p{
+
+font-size: 13px;
+line-height:10px;	
+}
+
+.center-me-please button{
+
+	background-color: #a4de9a;
+	color: white;
+	font-family: arial;
+	width: 100px;
+	height: 40px;
+	font-size: 11px;
+	border: none;
+	border-radius: 18px;
+
+}
+
+
+.text1{
+
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	padding-top: 30px;
+
+}
+.text1 span{
+	padding-bottom: 10px;
+	border-bottom: 3px solid black;
+}
+
+.box{
+
+	width: 100%;
+	height: 60%;
+	font-size: 0;
+	padding-top: 50px;
+}
+
+.box1 , .box2 ,.box3,.box4{
+
+   font-size: 15px;
+   width:23%;
+   height:70%;
+   box-shadow: 3px 4px  3px 3px #888888;	
+   display: inline-block;
+   margin-right: 30px;
+   text-align: center;
+  box-sizing: border-box;
+}
+.box4{
+	margin: 0;
+}
+
+.box1 img{                           /*important center image in div*/
+
+  margin: 40 auto;
+  display: block;
+}
+.box2  img{
+  margin: 40 auto;
+  display: block;
+}
+.box3 img{
+  margin: 40 auto;
+  display: block;
+}
+
+.box4 img{
+  margin: 40 auto;
+  display: block;
+}
+.box1 p{
+	text-align: center;
+	line-height: 5px;
+}
+.box2 p{
+	text-align: center;
+	line-height: 5px;
+}
+.box3 p{
+	text-align: center;
+	line-height: 5px;
+}
+.box4 p{
+	text-align: center;
+	line-height: 5px;
+}
+.black{
+	background-image: url("what-we-do-bg.png");
+	width: 100%;
+	height: 70%;
+	margin-bottom: 40px;
+}
+.word  {
+	color: white;
+	font-family: arial;
+	display: inline-block;
+	margin-top: 70px;
+	line-height: 5px;
+}
+.p{
+	font-size: 11px;
+	padding-top: 5px;
+}
+.pp{
+	font-size: 11px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.word button{
+	margin-right: 20px;
+	background-color: #a4de9a;
+	color: white;
+	font-family: arial;
+	width: 100px;
+	height: 40px;
+	font-size: 11px;
+	border: none;
+	border-radius: 18px;
+	
+
+}
+.word .btn{
+	background-color: white;
+	color: black;
+	font-family: arial;
+	width: 100px;
+	height: 40px;
+	font-size: 11px;
+	border: none;
+	border-radius: 18px;
+
+
+}
+
+.image{
+	
+	margin-top: 70px;
+	float: right;
+}
+.text2{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+.text2 span{
+	border-bottom: 3px solid black;
+	padding-bottom: 10px;
+}
+
+.links ul li{
+	display: inline-block;
+	padding-right: 20px;
+	font-family: arial;
+	font-size: 15px;
+
+}
+.links ul li span{
+	color: #a4de9a;
+}
+.links{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.imges {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:210px 210px;
+    grid-gap:15px;
+}
+
+
+.imges  img{
+	width: 100%;
+	height: 100%;
+	
+}
+.imges1  img{
+	width: 25%;
+	padding-right: 10px;
+	box-sizing: border-box;
+
+}
+
+.sec-five{
+	
+	height:85%;	/*border: 1px solid black;*/
+}
+.bg{
+	background-image: url("blog-bg.png");
+	width: 100%;
+	height: 100%;
+	margin-bottom: 80px;
+}
+.text3{
+	text-align: center;
+	padding-top: 50px;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+
+}
+.text3 span{
+	border-bottom: 2px solid white;
+	padding-bottom: 10px;
+
+}
+.ima1{
+	position: relative;
+}
+
+.ima1 img{
+	padding-top: 50px;
+	width: 50%;
+	font-size: 0;
+}
+
+
+
+.under{
+	position: absolute;
+	width: 87%;
+	height: 78px;
+	background-color: rgba(0,0,0,.5);
+	bottom: 0;
+	
+}
+
+.under p , .under2 p{
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	padding-left: 10px;
+}
+.under span , .under2 span{
+	color: white;
+	font-family: arial;
+	font-size: 13px;
+	padding-left: 10px;
+}
+.fourdiv{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:120px;
+    grid-gap:30px;
+
+}
+
+.one ,.two ,.three ,.four {
+
+background-color: #f4f4f4;
+
+
+}
+
+.divs h2 {
+	color: #698100;
+	text-align: center;
+}
+
+.divs p {
+	text-align: center;
+	font-family: arial;
+	padding-top: 25px;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 0;
+
+
+}
+.sec-seven{
+	padding-bottom: 30px;
+}
+
+
+.sec-eight{
+	width: 100%;
+	height: 100%;
+}
+.bg1{
+	background-image: url("contact-bg.png");
+	width: 100%;
+	height :90%;
+
+}
+
+.ima1{
+	display: inline-block;
+	width: 50%;
+ 	float: left;
+
+}
+
+.ima2{
+	width: 50%;
+ 	float: right;
+ 	padding-top: 50px;
+
+}
+
+.ima1 img{
+	width: 500px;
+
+}
+
+.ima2 img{
+
+	 padding-bottom: 33px;
+	 width: 575px;
+	 height: 158px;
+
+}
+
+.sec-seven{
+
+	padding-bottom: 0;
+}
+
+
+
+.background{
+    background-image: url("contact-bg.png");
+	width: 100%;
+	height: 80%;
+	margin-top: 80px;
+
+}
+.text5{
+
+    padding-top: 20px;
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 40px;text-align: center;
+	font-size: 20px;
+	color: white;
+}
+.text5 span  {
+	border-bottom: 3px solid white;
+	padding-bottom: 10px;
+}
+
+.map img{
+	float: left;
+	margin-right: 50px;
+}
+
+.input input{
+    padding-left: 15px;
+    padding-bottom:15px; 
+    color: #7d7878;
+	background: rgba(255,255,255,.1);
+	border: 0;
+	width: 250px;
+	margin-left: 8px;
+	height: 40px;
+
+}
+
+.msg{
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+.msg input{
+    
+    padding-bottom:160px; 
+    padding-left: 15px;
+	color: #7d7878;
+    background: rgba(255,255,255,.1);
+    border: 0;
+	width: 513px;
+	margin-left: 8px;
+	height: 200px;
+}
+.sendmsgbtn{
+	margin-right: 30px;
+}
+
+.sendmsgbtn button {
+
+	background-color: #a4de9a;
+	color: white;
+	font-family: arial;
+	width: 130px;
+	height: 40px;
+	font-size: 11px;
+	border-radius: 70px;
+	border: none;
+}
+
+.copyright span{
+
+	padding-top: 20px;
+	font-size: 12px;
+	color:red;
+	font-family: arial;
+
+}
+.copyright p{
+
+	padding-top: 20px;
+	font-size: 12px;
+	color:white;
+	font-family: arial;
+}
